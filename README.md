@@ -14,7 +14,7 @@ $ npm install koa-favi
 ## Example
 ```
 var koa = require('koa');
-var favicon = require('./');
+var favicon = require('koa-favi');
 
 var app = koa();
 
