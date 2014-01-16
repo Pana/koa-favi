@@ -1,0 +1,15 @@
+{
+  "name": "koa-favi",
+  "version": "0.0.0",
+  "description": "favicon middleware for koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "favicon"
+  ],
+  "author": "Pana",
+  "license": "MIT"
+}
