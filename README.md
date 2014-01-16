@@ -1,6 +1,8 @@
 koa-favi
 ==
-favicon middleware for koa. Serve the file you specify by the path parameter as favicon.
+The [favicon middleware](https://github.com/koajs/favicon) writen by TJ simply bounce annoying favicon requests with a 404.
+
+`koa-favi` act like `connect.favicon`. Serve the file you specify by the path parameter as favicon.
 If not specify or the file is not exist use the default Koa logo.
 
 
@@ -40,7 +42,7 @@ supported options
 
 ## TODO
 
-* Design a beautiful favicon.ico
+* Design a beautiful Koa favicon.ico
 
 ## License
 MIT
