@@ -32,7 +32,7 @@ module.exports = function (path, options) {
                 }
                 icon = {
                     headers: {
-                        'Content-Type': 'image/png'
+                        'Content-Type': 'image/x-icon'
                         , 'Content-Length': buf.length
                         , 'ETag': '"' + md5(buf) + '"'
                         , 'Cache-Control': 'public, max-age=' + (maxAge / 1000)
